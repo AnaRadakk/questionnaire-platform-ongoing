@@ -1,0 +1,24 @@
+html{
+  background-color:#E8E8E8;
+  width: 100%!important;
+  height: 100%!important;
+    background: -webkit-linear-gradient(to bottom, #6441A5, #2a0845);
+    border: 20px solid transparent;
+    -moz-border-image: -moz-linear-gradient(top, #F53D90 0%, #AA04F1 100%);
+    -webkit-border-image: -webkit-linear-gradient(top, #F53D90 0%, #AA04F1 100%);
+    border-image: linear-gradient(to bottom, #F53D90 0%, #AA04F1 100%);
+    border-image-slice: 1;
+    body {
+      background-color:#E8E8E8;
+    }
+    .all{
+      height: 100%!important;
+    }
+}
+@media (min-width:320px)  {
+  width: auto;
+  height: inherit;
+
+  background: -webkit-linear-gradient(to bottom, #6441A5, #2a0845);
+
+}
